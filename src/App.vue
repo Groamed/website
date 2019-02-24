@@ -2,22 +2,32 @@
   <div id="app">
     <div id="nav">
       <a-button>
-        <router-link to="/">Home</router-link>
+        <router-link to="/">
+          Home
+        </router-link>
       </a-button>|
       <a-button>
-        <router-link to="/anime">Anime list</router-link>
+        <router-link to="/anime">
+          Anime list
+        </router-link>
       </a-button>| |
       <a-button>
-        <router-link to="/anime/1">Anime</router-link>
+        <router-link to="/anime/1">
+          Anime
+        </router-link>
       </a-button>|
       <a-button>
-        <router-link to="/doramas">Doramas</router-link>
+        <router-link to="/doramas">
+          Doramas
+        </router-link>
       </a-button>|
       <a-button>
-        <router-link to="/news">News</router-link>
+        <router-link to="/news">
+          News
+        </router-link>
       </a-button>
     </div>
-    <router-view/>
+    <router-view />
   </div>
 </template>
 
