@@ -1,6 +1,6 @@
 <template>
   <div :class="`block--full ${className}`" :style="style">
-    <slot/>
+    <slot />
   </div>
 </template>
 

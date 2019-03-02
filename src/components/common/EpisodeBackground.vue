@@ -1,6 +1,6 @@
 <template>
   <block-full :className="'episode--background'" :style="style">
-    <slot/>
+    <slot />
   </block-full>
 </template>
 
