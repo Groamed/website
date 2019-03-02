@@ -7,3 +7,9 @@ export const GENRES = {
   FETCH_GENRE_SUCCESS: '@mutation/fetch/genre_success',
   FETCH_GENRE_FAIL: '@mutation/fetch/genre_fail'
 }
+
+export const USER = {
+  FETCH_REGISTER: '@mutation/fetch/register',
+  FETCH_REGISTER_SUCCESS: '@mutation/fetch/register_success',
+  FETCH_REGISTER_FAIL: '@mutation/fetch/register_fail'
+}

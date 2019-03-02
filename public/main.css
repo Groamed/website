@@ -10,12 +10,12 @@ a {
   text-decoration: none;
 }
 *,
-header nav a:first-of-type {
+.header .nav a:first-of-type {
   margin: 0;
 }
-.block--header,
+.block--.header,
 .button--default,
-header nav a {
+.header .nav a {
   text-transform: uppercase;
 }
 .modal_overlay,
@@ -60,7 +60,7 @@ input[type='text'] {
   width: 100%;
   float: left;
 }
-header {
+.header {
   left: 0;
   width: 100%;
   background: #fff;
@@ -69,34 +69,34 @@ header {
   height: 70px;
   z-index: 100;
 }
-header nav {
+.header .nav {
   position: absolute;
   left: 0;
   width: 100%;
   text-align: center;
 }
-header nav a {
+.header .nav a {
   display: inline-block;
   color: #222;
   padding: 10px;
   line-height: 20px;
   margin-left: 15px;
 }
-header nav a.disabled {
+.header .nav a.disabled {
   cursor: default;
   opacity: 0.25;
 }
-header nav a.active {
+.header .nav a.active {
   color: #f93522;
 }
-header a.user--login {
+.header a.user--login {
   float: right;
   position: relative;
   padding: 0 15px 0 0 !important;
   background: #fff;
   color: #f93522;
 }
-header .user--avatar {
+.header .user--avatar {
   float: right;
   position: relative;
   border: 100px;
@@ -138,23 +138,23 @@ header .user--avatar {
   margin: 0 auto;
   width: 1000px;
 }
-.block--header {
+.block--.header {
   float: left;
   width: 100%;
   line-height: 70px;
   font-size: 15px;
 }
-.block--header span {
+.block--.header span {
   float: right;
   font-weight: 300;
   font-size: 14px;
   color: #999;
   line-height: 70px;
 }
-.block--header__margin--null {
+.block--.header__margin--null {
   margin-top: 0;
 }
-.block--header__list {
+.block--.header__list {
   margin-top: -15px;
 }
 .text--center {
@@ -493,30 +493,30 @@ header .user--avatar {
 .anime-page .episode_info .block--full {
   width: 50%;
 }
-.anime-page .episode_info nav {
+.anime-page .episode_info .nav {
   float: right;
   line-height: 0;
   font-size: 0;
 }
 .anime-page .episode_info .episode_info-name,
-.anime-page .episode_info nav a,
+.anime-page .episode_info .nav a,
 .anime-page .episode_info > a {
   float: left;
   line-height: 35px;
   text-transform: uppercase;
 }
-.anime-page .episode_info nav a {
+.anime-page .episode_info .nav a {
   font-size: 13px;
   padding: 0 15px;
   color: #f93522;
   border-radius: 2px;
 }
-.anime-page .episode_info nav a.selected {
+.anime-page .episode_info .nav a.selected {
   background: #f93522;
   border-radius: 2px !important;
   color: #fff;
 }
-.anime-page .episode_info nav a.disabled {
+.anime-page .episode_info .nav a.disabled {
   opacity: 0.5;
   cursor: default;
 }
@@ -559,7 +559,7 @@ header .user--avatar {
   border-bottom: 1px solid #f1f1f1;
   padding: 30px 0;
 }
-.anime-page .anime-header_line {
+.anime-page .anime-.header_line {
   position: relative;
   margin-bottom: 30px;
 }
@@ -568,7 +568,7 @@ header .user--avatar {
   margin-top: -5px;
   line-height: 1.5;
 }
-.anime-page .anime-header_line:after {
+.anime-page .anime-.header_line:after {
   content: '';
   background: #f93522;
   width: 30px;
@@ -590,7 +590,7 @@ header .user--avatar {
   margin-bottom: 15px;
 }
 .anime-page .anime-team .anime-team__item:last-of-type,
-footer nav > a:first-of-type {
+footer .nav > a:first-of-type {
   margin: 0;
 }
 .anime-page .anime-team .anime-team__item .user-team {
@@ -833,7 +833,7 @@ footer nav > a:first-of-type {
   font-weight: 300;
 }
 footer,
-footer nav {
+footer .nav {
   float: left;
   width: 100%;
 }
@@ -903,42 +903,42 @@ footer {
   padding: 30px 0;
   background: #222;
 }
-footer nav {
+footer .nav {
   text-align: center;
 }
-footer nav > * {
+footer .nav > * {
   display: inline-block;
   color: #fff;
   line-height: 20px;
   margin-left: 15px;
 }
-footer nav > a {
+footer .nav > a {
   padding: 0 10px;
   text-transform: uppercase;
 }
-footer nav > span {
+footer .nav > span {
   width: 1px;
   background: rgba(255, 255, 255, 0.05);
   height: 20px;
   margin-bottom: -5px;
 }
-footer nav > a.disabled {
+footer .nav > a.disabled {
   cursor: default;
   opacity: 0.25;
 }
-.footerNavButtons {
+.footer.navButtons {
   margin-top: 30px;
 }
-.footerNavButtons a {
+.footer.navButtons a {
   padding: 10px 20px;
   border-radius: 2px;
   width: 165px;
   background: rgba(255, 255, 255, 0.05);
 }
-.footerNavButtons a:first-of-type {
+.footer.navButtons a:first-of-type {
   color: #f93522;
 }
-.footerNavButtons a:last-of-type {
+.footer.navButtons a:last-of-type {
   color: #7289da;
 }
 .anime-page .anime-info .blockAnimePoster {
@@ -1038,7 +1038,7 @@ footer nav > a.disabled {
   float: right;
   cursor: pointer;
 }
-.blockEpisodesHeader {
+.blockEpisodes.header {
   font-weight: 400;
   font-size: 14px !important;
   color: #999;
@@ -1069,7 +1069,7 @@ footer nav > a.disabled {
   width: 100%;
   background: rgba(17, 17, 17, 0.5);
 }
-.mobileMenu .mobileMenuNavigation {
+.mobileMenu .mobileMenu.navigation {
   left: -240px;
   top: 0;
   position: fixed;
@@ -1084,7 +1084,7 @@ footer nav > a.disabled {
   -o-transition-duration: 0.2s;
   transition-duration: 0.2s;
 }
-.mobileMenu .mobileMenuNavigation a {
+.mobileMenu .mobileMenu.navigation a {
   line-height: 70px;
   padding: 0 30px;
   color: #222;
@@ -1092,11 +1092,11 @@ footer nav > a.disabled {
   float: left;
   width: 100%;
 }
-.mobileMenu .mobileMenuNavigation a.disabled {
+.mobileMenu .mobileMenu.navigation a.disabled {
   cursor: default;
   color: rgba(51, 51, 51, 0.25);
 }
-.mobileMenu .mobileMenuNavigation a.active {
+.mobileMenu .mobileMenu.navigation a.active {
   color: #f93522;
 }
 .mobileHamburgerIcon {
@@ -1132,15 +1132,15 @@ footer nav > a.disabled {
     margin: 0 !important;
     overflow: hidden;
   }
-  header nav.user--login {
+  .header .nav.user--login {
     background: rgba(249, 53, 34, 0.1);
   }
-  header {
+  .header {
     position: fixed;
     border-bottom: 1px solid #f1f1f1;
     top: 0;
   }
-  header nav {
+  .header .nav {
     display: none;
   }
   .mainContainer {
@@ -1155,7 +1155,7 @@ footer nav > a.disabled {
     display: block !important;
   }
   .anime--block,
-  .anime--popular .block--header {
+  .anime--popular .block--.header {
     padding: 0 15px;
   }
   .anime--block {
@@ -1203,9 +1203,9 @@ footer nav > a.disabled {
 }
 @media screen and (min-width: 768px) and (max-width: 1023px),
   screen and (min-width: 320px) and (max-width: 768px) {
-  .news--block .block--header:first-of-type,
+  .news--block .block--.header:first-of-type,
   .news--block .news--block__vk,
-  footer nav:first-of-type {
+  footer .nav:first-of-type {
     display: none;
   }
   .episode--block > * {
@@ -1228,11 +1228,11 @@ footer nav > a.disabled {
   .episode--block > * .episode--block__view--background__info__episode {
     font-size: 11px !important;
   }
-  footer .footerNavButtons {
+  footer .footer.navButtons {
     margin: 0 !important;
     padding: 0 30px !important;
   }
-  footer .footerNavButtons > * {
+  footer .footer.navButtons > * {
     width: calc(50% - 7.5px) !important;
     float: left;
     padding-right: 0 !important;
@@ -1243,13 +1243,13 @@ footer nav > a.disabled {
   .news--block {
     width: 100% !important;
   }
-  footer .footerNavButtons > :first-of-type {
+  footer .footer.navButtons > :first-of-type {
     margin-right: 7.5px !important;
   }
-  footer .footerNavButtons > :last-of-type {
+  footer .footer.navButtons > :last-of-type {
     margin-left: 7.5px !important;
   }
-  .news--block .block--header:last-of-type {
+  .news--block .block--.header:last-of-type {
     margin-top: -15px;
   }
   .news--block .newsList.main {
@@ -1347,7 +1347,7 @@ footer nav > a.disabled {
 }
 @media screen and (min-width: 320px) and (max-width: 767px) and (orientation: portrait) {
   .episode_info,
-  .episode_info nav {
+  .episode_info .nav {
     text-align: center;
   }
   .episode--block > * {
@@ -1363,13 +1363,13 @@ footer nav > a.disabled {
     width: 80px;
     padding: 0 !important;
   }
-  .episode_info > :not(nav) {
+  .episode_info > :not(.nav) {
     display: inline-block;
     float: none !important;
     border: 0 !important;
     padding-left: 0 !important;
   }
-  .episode_info nav {
+  .episode_info .nav {
     float: left;
     width: 100%;
     margin-top: 10px;
@@ -1380,7 +1380,7 @@ footer nav > a.disabled {
   .blockAnimePoster {
     width: 100% !important;
   }
-  .episode_info nav a {
+  .episode_info .nav a {
     float: none !important;
     display: inline-block;
   }
@@ -1395,13 +1395,13 @@ footer nav > a.disabled {
     width: 50% !important;
     max-width: 50% !important;
   }
-  .lineHeader,
+  .line.header,
   .selectorAll {
     float: left;
     width: 100%;
     text-align: center;
   }
-  .lineHeader {
+  .line.header {
     line-height: 15px !important;
     margin-bottom: 30px;
   }
@@ -1490,7 +1490,7 @@ footer nav > a.disabled {
   line-height: 0;
   font-size: 0;
 }
-.lineHeader,
+.line.header,
 .selectorAll a {
   line-height: 30px;
   text-transform: uppercase;
@@ -1518,7 +1518,7 @@ footer nav > a.disabled {
   border-radius: 0 2px 2px 0;
   border-left: 0;
 }
-.lineHeader {
+.line.header {
   font-size: 15px;
 }
 .borderTop {
