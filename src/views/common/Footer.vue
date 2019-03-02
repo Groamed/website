@@ -6,11 +6,12 @@
       <a href="/anime">Аниме</a>
       <a href="/news">Новости</a>
       <span></span>
-      <a target="_blank" href="https://copyright.sovetromantica.com/">Для правообладателей</a>
-      <a
-        target="_blank"
-        href="https://policy.sovetromantica.com/"
-      >Политика обработки персональных данных</a>
+      <a target="_blank" href="https://copyright.sovetromantica.com/"
+        >Для правообладателей</a
+      >
+      <a target="_blank" href="https://policy.sovetromantica.com/"
+        >Политика обработки персональных данных</a
+      >
       <a href="#" class="disabled">О нас</a>
     </nav>
     <nav class="footerNavButtons">
