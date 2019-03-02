@@ -1,6 +1,9 @@
 <template>
-  <block-full :className="'popular--block borderTop borderBottom'" :style="style">
-    <slot/>
+  <block-full
+    :className="'popular--block borderTop borderBottom'"
+    :style="style"
+  >
+    <slot />
   </block-full>
 </template>
 
