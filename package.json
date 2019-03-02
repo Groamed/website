@@ -10,15 +10,8 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "yarn lint && yarn test:unit"
     }
-  },
-  "lint-staged": {
-    "*.(js|vue)": [
-      "yarn lint",
-      "yarn test:unit",
-      "git add"
-    ]
   },
   "dependencies": {
     "axios": "^0.18.0",
